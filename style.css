@@ -961,3 +961,16 @@ footer{
   }
 
 }
+.creator{
+  display:block;
+
+  margin-top:12px;
+
+  color:#00ffd5;
+
+  font-size:0.95rem;
+
+  letter-spacing:2px;
+
+  text-transform:uppercase;
+}
