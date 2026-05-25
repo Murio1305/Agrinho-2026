@@ -365,55 +365,55 @@ function connectParticles(){
 
 }
 
-function shootingStar(){
+//function shootingStar(){
 
-  const x =
-  Math.random() * canvas.width;
+//  const x =
+  //Math.random() * canvas.width;
 
-  const y =
-  Math.random() * canvas.height / 2;
+  //const y =
+  //Math.random() * canvas.height / 2;
 
-  let length = 0;
+  //let length = 0;
 
-  function animateStar(){
+  //function animateStar(){
 
-    ctx.beginPath();
+   // ctx.beginPath();
 
-    ctx.moveTo(x + length, y);
+    //ctx.moveTo(x + length, y);
 
-    ctx.lineTo(
-      x + length - 120,
-      y + 40
-    );
+//    ctx.lineTo(
+  //    x + length - 120,
+//      y + 40
+//    );
 
-    ctx.strokeStyle =
-    'rgba(255,255,255,0.7)';
+//    ctx.strokeStyle =
+//    'rgba(255,255,255,0.7)';
 
-    ctx.lineWidth = 2;
+//    ctx.lineWidth = 2;
 
-    ctx.stroke();
+//    ctx.stroke();
 
-    length += 15;
+//    length += 15;
 
-    if(length < 400){
+//    if(length < 400){
 
-      requestAnimationFrame(
-        animateStar
-      );
+//      requestAnimationFrame(
+//        animateStar
+//      );
 
-    }
+ //   }
 
-  }
+ // }
 
-  animateStar();
+//  animateStar();
 
-}
+//}
 
-setInterval(() => {
+//setInterval(() => {
 
-  shootingStar();
+//  shootingStar();
 
-}, 4000);
+//}, 4000);
 
 function animate(){
 
